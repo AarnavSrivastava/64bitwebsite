@@ -1,4 +1,5 @@
 import Biography from "../components/biography.js"
+import Image from "../images/gangsta-man-8530041.jpg"
 
 export default function Members() {
     return (
@@ -7,7 +8,7 @@ export default function Members() {
             Members
           </h1>
           <div className="flex justify-center">
-            <Biography name="Gangsta Bian">ksdjfnkj sdkjn skdjfn sofij aoskjn sdkfns djfn ksjdfn </Biography>
+            <Biography name="Gangsta Bian" images={Image}>ksdjfnkj sdkjn skdjfn sofij aoskjn sdkfns djfn ksjdfn </Biography>
           </div>
       </div>
     )
