@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Navbar = () => {
     return (
-        <navbar className="flex w-full h-[60px] bg-black items-center gap-6 px-4">
+        <navbar className="flex w-full bg-black justify-center items-center gap-6 px-4 py-8 text-2xl font-RobotoC">
             <LinkButton to="/">Home</LinkButton>
             <LinkButton to="/about">About</LinkButton>
             <LinkButton to="/members">Members</LinkButton>
@@ -15,7 +15,7 @@ const Navbar = () => {
 
 const LinkButton = ({to, children}) => {
     return (
-        <div className="hover:underline">
+        <div className="text-white transition ease-in-out hover:text-slate-300">
             <Link href={to}>{children}</Link>
         </div>
     )

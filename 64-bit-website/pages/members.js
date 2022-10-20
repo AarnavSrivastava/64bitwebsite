@@ -1,14 +1,18 @@
 import Biography from "../components/biography.js"
-import Image from "../images/gangsta-man-8530041.jpg"
+import bian from "../images/bunger.jpeg"
+import james from "../images/james1.jpg";
+import aditya from "../images/aditya_gamer.jpg"
 
 export default function Members() {
     return (
-      <div>
-          <h1 className="text-3xl font-bold underline flex justify-center mt-10">
+      <div className="flex flex-col gap-[5vw] pb-[4vw]">
+          <h1 className="text-black text-5xl font-bold flex justify-center mt-10 font-Poppins">
             Members
           </h1>
-          <div className="flex justify-center">
-            <Biography name="Gangsta Bian" images={Image}>ksdjfnkj sdkjn skdjfn sofij aoskjn sdkfns djfn ksjdfn </Biography>
+          <div className="flex flex-col">
+            <Biography name="Gangsta Bian" image={bian}>ksdjfnkj sdkjn skdjfn sofij aoskjn sdkfns djfn ksjdfn </Biography>
+            <Biography right={true} name="James Haber" image={james}>ksdjfnkj sdkjn skdjfn sofij aoskjn sdkfns djfn ksjdfn </Biography>
+            <Biography name="Aditya Balas" image={aditya}>ksdjfnkj sdkjn skdjfn sofij aoskjn sdkfns djfn ksjdfn </Biography>
           </div>
       </div>
     )

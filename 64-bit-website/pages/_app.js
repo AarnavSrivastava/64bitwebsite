@@ -3,7 +3,7 @@ import Navbar from "../components/navbar.js";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-x-hidden bg-white h-screen">
       <Navbar />
       <Component {...pageProps} />
     </div>
