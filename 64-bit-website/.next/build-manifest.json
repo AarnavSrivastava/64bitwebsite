@@ -25,10 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/charities": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/charities.js"
+    ],
     "/members": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/members.js"
+    ],
+    "/recordings": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/recordings.js"
     ]
   },
   "ampFirstPages": []
