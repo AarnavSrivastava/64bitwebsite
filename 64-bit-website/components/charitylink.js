@@ -3,7 +3,7 @@ const CharityLink = (props) => {
         <div className="flex flex-row text-black justify-between px-[5vw] font-Opensans justify-center text-3xl w-[100%]">
             <div className="basis-1 grow flex flex-col justify-center items-center gap-[5vw]">
                 <div className="flex justify-center">
-                    {props.children}
+                    {props.name}
                 </div>
                 <div className="text-lg">
                     {props.children}

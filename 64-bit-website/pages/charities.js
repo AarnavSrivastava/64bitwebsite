@@ -7,17 +7,18 @@ export default function Charities() {
             Charities
           </h1>
 
-          <CharityLink link="https://hugsforbrady.org/donations/">
+          <CharityLink link="https://hugsforbrady.org/donations/" name="Hugs For Brady">
             Hugs For Brady
           </CharityLink>
 
-          <CharityLink link="https://www.save.lgbt/donate">
+          <CharityLink link="https://www.save.lgbt/donate" name="SAVE DADE">
             Save
           </CharityLink>
 
-          <CharityLink link="https://secure2.wish.org/site/SPageServer?pagename=donate_today&chid=003-000">
+          <CharityLink link="https://secure2.wish.org/site/SPageServer?pagename=donate_today&chid=003-000" name="Make-A-Wish Foundation New Jersey">
             Make-A-Wish Foundation New Jersey
           </CharityLink>
       </div>
     )
   }
+

@@ -2,7 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/charities": "pages/charities.js",
+  "/": "pages/index.js",
   "/members": "pages/members.js",
-  "/recordings": "pages/recordings.js"
+  "/charities": "pages/charities.js",
+  "/recordings": "pages/recordings.js",
+  "/about": "pages/about.js"
 }
