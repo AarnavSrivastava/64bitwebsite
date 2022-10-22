@@ -1,10 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/members": "pages/members.js",
-  "/charities": "pages/charities.js",
-  "/recordings": "pages/recordings.js",
-  "/about": "pages/about.js"
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/charities": "pages/charities.html",
+  "/": "pages/index.html",
+  "/members": "pages/members.html",
+  "/recordings": "pages/recordings.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
 }

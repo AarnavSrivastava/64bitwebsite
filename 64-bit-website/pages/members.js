@@ -2,6 +2,7 @@ import Biography from "../components/biography.js"
 import atharv from "../images/atharv.jpg"
 import james from "../images/james1.jpg";
 import aditya from "../images/aditya.jpg"
+import aarnav from "../images/aarnav.jpeg"
 
 export default function Members() {
     return (
@@ -10,13 +11,18 @@ export default function Members() {
             Members
           </h1>
           <div className="flex flex-col border-t-4 border-amber-400">
-            <Biography right={true} name="Atharv Thakur" image={atharv}>
+            <Biography right={true} name="Aarnav Srivastava" image={aarnav}>
+              Aarnav Srivastava is both an alto and a tenor saxophone player for the 64 Bit Jazz Combo. He has been playing alto saxophone for
+              8 years and tenor saxophone for 1 year, and has experience in both classical and jazz music. He enjoys
+              playing saxophone for the band, and was the person who developed the website that you&apos;re on right now!
+            </Biography>
+            <Biography name="Atharv Thakur" image={atharv}>
               Atharv Thakur is both a flute player and arranger for the 64 Bit Jazz Combo. He has been playing the flute for 8 years, 
               and has significant experience with both classical and jazz styles. He hopes his playing and arranging will bring a unique 
               flavor to the combo which will keep its performances interesting from start to finish.
             </Biography>
-            <Biography name="Aditya Balas" image={aditya}>ksdjfnkj sdkjn skdjfn sofij aoskjn sdkfns djfn ksjdfn </Biography>
-            <Biography right={true} name="James Haber" image={james}>
+            <Biography right={true} name="Aditya Balas" image={aditya}>ksdjfnkj sdkjn skdjfn sofij aoskjn sdkfns djfn ksjdfn </Biography>
+            <Biography name="James Haber" image={james}>
               James Haber is the drummer, founder, and one of the principal arrangers of of The 64 Bit Jazz Combo.
               He has been playing drums for eight years and has enjoyed music his entire life.
               While originally trained as a rock drummer, he is comfortable playing a wide range of genres and enjoys learning new styles.
