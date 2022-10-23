@@ -28,9 +28,10 @@ export default function Members() {
               expanding his talents to cover other genres such as rock, metal, and jazz.
             </Biography>
             <Biography name="James Haber" image={james}>
-              James Haber is the drummer, founder, and one of the principal arrangers of of The 64 Bit Jazz Combo.
-              He has been playing drums for eight years and has enjoyed music his entire life.
-              While originally trained as a rock drummer, he is comfortable playing a wide range of genres and enjoys learning new styles.
+              James Haber is the founder, drummer, and one of the principal arrangers of 
+              The 64 Bit Jazz Combo. He has been playing drums for eight years and 
+              has enjoyed music his entire life. While originally trained as a rock drummer, 
+              he is comfortable playing a wide range of genres and enjoys learning new styles. 
               He hopes his style of playing will contribute positively to the success of the group.
             </Biography>
             <Biography right={true} name="Anant Chary" image={logo_transparent}>
