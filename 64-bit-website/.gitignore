@@ -2,6 +2,7 @@
 
 # dependencies
 /googlechrome.dmg
+/.next
 /node_modules
 /.pnp
 .pnp.js
