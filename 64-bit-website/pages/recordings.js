@@ -1,4 +1,4 @@
-import Image from "next/Image"
+import Image from "next/image"
 import logo_transparent from "../logos/logo_transparent.png"
 
 export default function Recordings() {
