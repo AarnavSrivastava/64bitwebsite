@@ -3,6 +3,7 @@ import atharv from "../images/atharv.jpg"
 import james from "../images/james1.jpg";
 import aditya from "../images/aditya.jpg"
 import aarnav from "../images/aarnav.jpeg"
+import chase from "../images/chase.jpeg"
 import logo_transparent from "../logos/logo_transparent.png"
 
 export default function Members() {
@@ -22,6 +23,20 @@ export default function Members() {
               and has significant experience with both classical and jazz styles. He hopes his playing and arranging will bring a unique 
               flavor to the combo which will keep its performances interesting from start to finish.
             </Biography>
+            <Biography right={true} name="Chase Yetter" image={chase}>
+              Chase Yetter is one of three sax players for the 64 Bit Jazz Combo, 
+              but specializes in Baritone Sax. He has been playing for 8 years, 
+              playing bari for 6. With experience in both classical and jazz performance, 
+              he rounds out the lower end of the band.
+            </Biography>
+            <Biography name="Anant Chary" image={logo_transparent}>
+              Anant Chary is a guitarist, alto saxophonist, arranger, and composer for
+              the 64 Bit Jazz Combo. He has six years of experience with saxophone and three years 
+              with guitar. He has mainly explored the genres of jazz and rock, but continues to branch out 
+              into other genres such as metal and blues. He hopes that his playing and composition will 
+              provide originality for the group and make them stand out. He helped create this website and 
+              greatly enjoys making music with the band.
+            </Biography>
             <Biography right={true} name="Aditya Balas" image={aditya}>
               Aditya Balas is the bassist of the 64 Bit Jazz Combo. He has had 9 years of experience across violin, 
               piano, and bass guitar. Although he was initially trained on classical music, he has recently been 
@@ -34,13 +49,7 @@ export default function Members() {
               he is comfortable playing a wide range of genres and enjoys learning new styles. 
               He hopes his style of playing will contribute positively to the success of the group.
             </Biography>
-            <Biography right={true} name="Anant Chary" image={logo_transparent}>
-              Coming soon...
-            </Biography>
-            <Biography name="Sayan Chakraborty" image={logo_transparent}>
-              Coming soon...
-            </Biography>
-            <Biography right={true} name="Chase Yetter" image={logo_transparent}>
+            <Biography right={true} name="Sayan Chakraborty" image={logo_transparent}>
               Coming soon...
             </Biography>
           </div>
