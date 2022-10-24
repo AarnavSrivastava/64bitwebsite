@@ -16,8 +16,9 @@ const Navbar = () => {
             <LinkButton to="/members">Members</LinkButton>
             <LinkButton to="/recordings">Recordings</LinkButton>
             <LinkButton to="/charities">Charities</LinkButton>
-            <div className="md:w-[10vw] w-[90px] absolute translate-y-[40vh]">
+            <div className="flex flex-col justify-center gap-[1vw] md:w-[10vw] w-[90px] absolute translate-y-[40vh] text-sm text-center">
                 <Image priority src={logo_text} className="" alt="text logo" />
+                Logo by Andrew Schies
             </div>
         </navbar>
     )
