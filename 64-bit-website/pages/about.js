@@ -28,9 +28,9 @@ export default function About() {
                 and even soundtrack music. If you would like to request that we play a certain piece for you, 
                 email us at&nbsp;
                 <nobr className="text-blue-400 underline hover:text-blue-600">
-                  <Link href="mailto:64bitjazzcombo@gmail.com"> 
+                  <a target="_blank" href="mailto:64bitjazzcombo@gmail.com"> 
                     64bitjazzcombo@gmail.com
-                  </Link>
+                  </a>
                 </nobr>
               </div>
             </div>
@@ -39,9 +39,9 @@ export default function About() {
               <div className="mt-[2vw] md:text-[1.4vw] text-sm font-Inter leading-loose">
                 We can play at any event or fundraiser, and we would love to play for you. Email us at&nbsp;
                 <nobr className="text-blue-400 underline hover:text-blue-600">
-                  <Link href="mailto:64bitjazzcombo@gmail.com"> 
+                  <a target="_blank" href="mailto:64bitjazzcombo@gmail.com"> 
                     64bitjazzcombo@gmail.com
-                  </Link>
+                  </a>
                 </nobr>
                 &nbsp;to request us to perform at any event you are hosting.
               </div>
