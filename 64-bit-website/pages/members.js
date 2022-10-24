@@ -4,6 +4,7 @@ import james from "../images/james1.jpg";
 import aditya from "../images/aditya.jpg"
 import aarnav from "../images/aarnav.jpeg"
 import chase from "../images/chase.jpeg"
+import anant from "../images/anant.jpg" 
 import logo_transparent from "../logos/logo_transparent.png"
 
 export default function Members() {
@@ -17,6 +18,8 @@ export default function Members() {
               Aarnav Srivastava is both an alto and a tenor saxophone player for the 64 Bit Jazz Combo. He has been playing alto saxophone for
               8 years and tenor saxophone for 1 year, and has experience in both classical and jazz music. He enjoys
               playing saxophone for the band, and was the person who developed the website that you&apos;re on right now!
+              Visit the git repository for this website&nbsp;
+              <nobr className="text-blue-400 underline hover:text-blue-600"><a target="_blank" href="https://github.com/therealbarney18/64bitwebsite">here</a></nobr>
             </Biography>
             <Biography name="Atharv Thakur" image={atharv}>
               Atharv Thakur is both a flute player and arranger for the 64 Bit Jazz Combo. He has been playing the flute for 8 years, 
@@ -29,7 +32,7 @@ export default function Members() {
               playing bari for 6. With experience in both classical and jazz performance, 
               he rounds out the lower end of the band.
             </Biography>
-            <Biography name="Anant Chary" image={logo_transparent}>
+            <Biography name="Anant Chary" image={anant}>
               Anant Chary is a guitarist, alto saxophonist, arranger, and composer for
               the 64 Bit Jazz Combo. He has six years of experience with saxophone and three years 
               with guitar. He has mainly explored the genres of jazz and rock, but continues to branch out 
