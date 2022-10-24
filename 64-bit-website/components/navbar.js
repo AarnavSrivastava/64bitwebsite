@@ -28,7 +28,7 @@ const LinkButton = ({to, children}) => {
     
     return (
         <div className={((router.pathname == to) ? "text-amber-400" : "text-white") + " transition ease-in-out hover:text-slate-300 hover:scale-105"}>
-            <Link href={to} scroll={true} >{children}</Link>
+            <Link href={to} scroll={false} >{children}</Link>
         </div>
     )
 }

@@ -5,6 +5,24 @@ import { useCallback, useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
+  const handleScrollTop = useCallback(() => {
+    const frame = requestAnimationFrame(() => {
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, []);
+
+  useEffect(() => {
+    router.events.on('routeChangeComplete', handleScrollTop);
+    return () => router.events.off('routeChangeComplete', handleScrollTop);
+  }, [ handleScrollTop ]);
+
   return (
     <>
       <Head>
