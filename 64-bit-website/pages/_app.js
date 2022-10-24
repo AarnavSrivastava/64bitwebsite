@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import Navbar from "../components/navbar.js";
 import Head from "next/head"
+import { useCallback, useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -15,12 +17,10 @@ function MyApp({ Component, pageProps }) {
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
       </Head>
-      <div className="flex flex-col justify-start relative overflow-x-hidden bg-white h-screen">
+      <div className="flex flex-col justify-start relative bg-white h-full">
         <div className='flex flex-row'>
           <Navbar />
-          <div className="pl-[15vw]">
-            <Component {...pageProps} />
-          </div>
+          <Component {...pageProps} />
         </div>
       </div>
     </>

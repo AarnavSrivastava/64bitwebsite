@@ -7,7 +7,7 @@ import logo_text from "../logos/logo_text.png"
 
 const Navbar = () => {
     return (
-        <navbar className="h-screen flex flex-col fixed px-[5vw] w-[15vw] bg-black justify-center items-center gap-10 py-8 md:text-[1.5vw] text-sm font-RobotoC">
+        <navbar className="h-screen flex flex-col sticky top-0 px-[5vw] w-[15vw] bg-black justify-center items-center gap-10 py-8 md:text-[1.5vw] text-sm font-RobotoC">
             <div className="md:w-[10vw] w-[90px] absolute -translate-y-[35vh]">
                 <Image priority src={logo} className="" id="logo" alt="logo" />
             </div>
