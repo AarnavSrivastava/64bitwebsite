@@ -11,10 +11,6 @@ export default function Charities() {
             Charities
           </h1>
 
-          <div className="text-black">
-            test
-          </div>
-
           <CharityLink link="https://hugsforbrady.org/donations/" name="Hugs For Brady" img={HFB}>
             &quot;The Hugs for Brady Foundation was established to help children battling cancer and assist in research to 
             ultimately find a cure for pediatric cancer. We are a 501(c)(3) non-profit corporation. All donations 
