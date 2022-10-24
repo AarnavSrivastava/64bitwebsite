@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     router.events.on('routeChangeComplete', handleScrollTop);
     return () => router.events.off('routeChangeComplete', handleScrollTop);
-  }, [ handleScrollTop ]);
+  }, [ handleScrollTop, router ]);
 
   return (
     <>

@@ -4,7 +4,8 @@ import james from "../images/james1.jpg";
 import aditya from "../images/aditya.jpg"
 import aarnav from "../images/aarnav.jpeg"
 import chase from "../images/chase.jpeg"
-import anant from "../images/anant.jpg" 
+import anant from "../images/anant.jpg"
+import sayan from "../images/sayan.jpg"
 import logo_transparent from "../logos/logo_transparent.png"
 
 export default function Members() {
@@ -19,20 +20,23 @@ export default function Members() {
               8 years and tenor saxophone for 1 year, and has experience in both classical and jazz music. He enjoys
               playing saxophone for the band, and was the person who developed the website that you&apos;re on right now!
               Visit the git repository for this website&nbsp;
-              <nobr className="text-blue-400 underline hover:text-blue-600"><a target="_blank" href="https://github.com/therealbarney18/64bitwebsite">here</a></nobr>
+              <nobr className="text-blue-400 underline hover:text-blue-600"><a rel="noreferrer" target="_blank" href="https://github.com/therealbarney18/64bitwebsite">here</a></nobr>.
             </Biography>
-            <Biography name="Atharv Thakur" image={atharv}>
+            <Biography name="Sayan Chakraborty" image={sayan}>
+              Coming soon...
+            </Biography>
+            <Biography right={true} name="Atharv Thakur" image={atharv}>
               Atharv Thakur is both a flute player and arranger for the 64 Bit Jazz Combo. He has been playing the flute for 8 years, 
               and has significant experience with both classical and jazz styles. He hopes his playing and arranging will bring a unique 
               flavor to the combo which will keep its performances interesting from start to finish.
             </Biography>
-            <Biography right={true} name="Chase Yetter" image={chase}>
+            <Biography name="Chase Yetter" image={chase}>
               Chase Yetter is one of three sax players for the 64 Bit Jazz Combo, 
               but specializes in Baritone Sax. He has been playing for 8 years, 
               playing bari for 6. With experience in both classical and jazz performance, 
               he rounds out the lower end of the band.
             </Biography>
-            <Biography name="Anant Chary" image={anant}>
+            <Biography right={true} name="Anant Chary" image={anant}>
               Anant Chary is a guitarist, alto saxophonist, arranger, and composer for
               the 64 Bit Jazz Combo. He has six years of experience with saxophone and three years 
               with guitar. He has mainly explored the genres of jazz and rock, but continues to branch out 
@@ -40,20 +44,17 @@ export default function Members() {
               provide originality for the group and make them stand out. He helped create this website and 
               greatly enjoys making music with the band.
             </Biography>
-            <Biography right={true} name="Aditya Balas" image={aditya}>
+            <Biography name="Aditya Balas" image={aditya}>
               Aditya Balas is the bassist of the 64 Bit Jazz Combo. He has had 9 years of experience across violin, 
               piano, and bass guitar. Although he was initially trained on classical music, he has recently been 
               expanding his talents to cover other genres such as rock, metal, and jazz.
             </Biography>
-            <Biography name="James Haber" image={james}>
+            <Biography right={true} name="James Haber" image={james}>
               James Haber is the founder, drummer, and one of the principal arrangers of 
               The 64 Bit Jazz Combo. He has been playing drums for eight years and 
               has enjoyed music his entire life. While originally trained as a rock drummer, 
               he is comfortable playing a wide range of genres and enjoys learning new styles. 
               He hopes his style of playing will contribute positively to the success of the group.
-            </Biography>
-            <Biography right={true} name="Sayan Chakraborty" image={logo_transparent}>
-              Coming soon...
             </Biography>
           </div>
       </div>
