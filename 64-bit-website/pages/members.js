@@ -6,7 +6,6 @@ import aarnav from "../images/aarnav.jpeg"
 import chase from "../images/chase.jpeg"
 import anant from "../images/anant.jpg"
 import sayan from "../images/sayan.jpg"
-import logo_transparent from "../logos/logo_transparent.png"
 
 export default function Members() {
     return (
