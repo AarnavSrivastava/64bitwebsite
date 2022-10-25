@@ -19,8 +19,6 @@ export default function Members() {
               Aarnav Srivastava is both an alto and a tenor saxophone player for the 64 Bit Jazz Combo. He has been playing alto saxophone for
               8 years and tenor saxophone for 1 year, and has experience in both classical and jazz music. He enjoys
               playing saxophone for the band, and was the person who developed the website that you&apos;re on right now!
-              Visit the git repository for this website&nbsp;
-              <nobr className="text-blue-400 underline hover:text-blue-600"><a rel="noreferrer" target="_blank" href="https://github.com/therealbarney18/64bitwebsite">here</a></nobr>.
             </Biography>
             <Biography name="Sayan Chakraborty" image={sayan}>
               Sayan Chakraborty is an alto saxophone player for the 64 Bit Jazz Combo. He has 
