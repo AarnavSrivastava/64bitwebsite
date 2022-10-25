@@ -16,7 +16,7 @@ const Navbar = () => {
             <LinkButton to="/members">Members</LinkButton>
             <LinkButton to="/recordings">Recordings</LinkButton>
             <LinkButton to="/charities">Charities</LinkButton>
-            <div className="flex flex-col justify-center gap-[1vw] md:w-[10vw] w-[50px] absolute translate-y-[40vh] md:text-sm text-[1.2vw] text-center">
+            <div className="flex flex-col justify-center gap-[1vw] md:w-[10vw] w-[50px] absolute translate-y-[40vh] md:text-sm text-[1.2vw] text-center text-white">
                 <Image priority src={logo_text} className="" alt="text logo" />
                 Logo by Andrew Schies
             </div>
