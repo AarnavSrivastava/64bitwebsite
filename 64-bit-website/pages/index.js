@@ -10,7 +10,7 @@ export default function Home() {
         <div className="text-black mt-[2vw] md:text-[1.4vw] text-sm font-Poppins leading-loose text-center">
           A Central Jersey Based Jazz Combo
         </div>
-        <Image src={logo_transparent} alt="logo" />
+        <Image priority src={logo_transparent} alt="logo" />
     </div>
   )
 }

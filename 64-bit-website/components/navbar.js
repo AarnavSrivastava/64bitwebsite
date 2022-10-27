@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <navbar className="h-screen flex flex-col sticky top-0 px-[5vw] w-[15vw] bg-black justify-center items-center gap-10 py-8 md:text-[1.5vw] text-sm font-RobotoC">
             <div className="md:w-[10vw] w-[50px] absolute -translate-y-[35vh]">
-                <Image priority src={logo} className="" id="logo" alt="logo" />
+                <Image src={logo} className="" id="logo" alt="logo" />
             </div>
             <LinkButton to="/">Home</LinkButton>
             <LinkButton to="/about">About</LinkButton>
@@ -17,7 +17,7 @@ const Navbar = () => {
             <LinkButton to="/recordings">Recordings</LinkButton>
             <LinkButton to="/charities">Charities</LinkButton>
             <div className="flex flex-col justify-center gap-[1vw] md:w-[10vw] w-[50px] absolute translate-y-[40vh] md:text-sm text-[1.2vw] text-center text-white">
-                <Image priority src={logo_text} className="" alt="text logo" />
+                <Image src={logo_text} className="" alt="text logo" />
                 Logo by Andrew Schies
             </div>
         </navbar>
