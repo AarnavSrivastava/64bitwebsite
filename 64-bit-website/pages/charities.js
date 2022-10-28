@@ -1,8 +1,8 @@
 import CharityLink from "../components/charitylink";
-import HFB from "../images/hfb.jpeg"
-import SAVE from "../images/save.jpeg"
-import MAWNJ from "../images/mawnj.png"
-import StJudes from "../images/stjudes.png"
+import HFB from "../images/hfb.webp"
+import SAVE from "../images/save.webp"
+import MAWNJ from "../images/mawnj.webp"
+import StJudes from "../images/stjudes.webp"
 
 export default function Charities() {
     return (

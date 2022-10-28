@@ -1,11 +1,11 @@
 import Biography from "../components/biography.js"
-import atharv from "../images/atharv.jpg"
-import james from "../images/james1.jpg";
-import aditya from "../images/aditya.jpg"
-import aarnav from "../images/aarnav.jpeg"
-import chase from "../images/chase.jpeg"
-import anant from "../images/anant.jpg"
-import sayan from "../images/sayan.jpg"
+import atharv from "../images/atharv.webp"
+import james from "../images/james1.webp";
+import aditya from "../images/aditya.webp"
+import aarnav from "../images/aarnav.webp"
+import chase from "../images/chase.webp"
+import anant from "../images/anant.webp"
+import sayan from "../images/sayan.webp"
 
 export default function Members() {
     return (
