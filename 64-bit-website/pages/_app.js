@@ -3,6 +3,7 @@ import Navbar from "../components/navbar.js";
 import Head from "next/head"
 import { useCallback, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -39,6 +40,7 @@ function MyApp({ Component, pageProps }) {
         <div className='flex flex-row'>
           <Navbar />
           <Component {...pageProps} />
+          <Analytics />
         </div>
       </div>
     </>
