@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function About() {
     return (
       <div className="text-black flex flex-col gap-[5vw] px-[5vw] mb-[5vw]">
-          <h1 className="text-5xl font-bold font-Poppins flex justify-center mt-10">
+          <h1 className="lg:text-[3vw] text-5xl font-bold font-Poppins flex justify-center mt-10">
             About
           </h1>
-          <div className="flex flex-col font-RobotoC text-3xl text-center gap-[5vw]">
+          <div className="flex flex-col font-RobotoC lg:text-[2vw] text-3xl text-center gap-[5vw]">
             <div>
               WHO ARE WE?
               <div className="mt-[2vw] md:text-[1.4vw] text-sm font-Inter leading-loose">

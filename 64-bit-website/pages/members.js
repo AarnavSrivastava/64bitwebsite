@@ -10,7 +10,7 @@ import sayan from "../images/sayan.webp"
 export default function Members() {
     return (
       <div className="flex flex-col gap-[5vw] pb-[4vw]">
-          <h1 className="text-black text-5xl font-bold flex justify-center mt-10 font-Poppins">
+          <h1 className="text-black lg:text-[3vw] text-5xl font-bold flex justify-center mt-10 font-Poppins">
             Members
           </h1>
           <div className="flex flex-col border-t-4 border-amber-400">
