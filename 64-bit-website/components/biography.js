@@ -11,7 +11,7 @@ const Biography = (props) => {
                 <div className="md:text-[2.5vw] text-md font-RobotoC">
                     {props.name}
                 </div>
-                <div className="px-[4vw] md:text-[1.2vw] text-[0.4em] flex flex-col justify-center">
+                <div className="px-[4vw] md:text-[1.2vw] text-[0.6em] flex flex-col justify-center">
                     <div>{props.children}</div>
                 </div>
             </div>
