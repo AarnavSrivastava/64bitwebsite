@@ -14,9 +14,6 @@ module.exports = {
         Inter : ['Inter', ...defaultTheme.fontFamily.sans],
         RobotoC : ['Roboto Condensed', ...defaultTheme.fontFamily.sans],
       },
-      colors: {
-        "black-opaque": 'rgba(0, 0, 0, 0.54)'
-      },
     },
   },
   plugins: [],

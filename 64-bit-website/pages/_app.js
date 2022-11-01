@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Navbar from "../components/navbar.js";
 import Head from "next/head"
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -39,7 +39,9 @@ function MyApp({ Component, pageProps }) {
       <div className="flex flex-col justify-start relative bg-white h-full">
         <div className='flex flex-row'>
           <Navbar />
-          <Component {...pageProps} />
+          <div className="mt-5">
+            <Component {...pageProps} />
+          </div>
           <Analytics />
         </div>
       </div>

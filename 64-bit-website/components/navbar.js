@@ -5,18 +5,10 @@ import Image from "next/image";
 import logo from "../logos/logo_main.png"
 import logo_text from "../logos/logo_text.png"
 import  Hamburger from 'hamburger-react'
-import { useTransition, animated } from "react-spring"
 
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
-
-    const menuTransition = useTransition(open, {
-        from: { x: -150 },
-        enter: { x: 0 },
-        leave: { x: -150 },
-        reverse: open,
-    })
 
     useEffect(() => {
         open ? document.body.style.overflow="hidden" : document.body.style.overflow="auto"
@@ -32,7 +24,7 @@ const Navbar = () => {
 
     return (
         <navbar className="h-screen sticky top-0 z-10">
-            <div className="hidden h-screen sm:flex flex-col sticky top-0 px-[5vw] max-w-[150px] w-[15vw] bg-black justify-center items-center gap-[2.5vw] py-8 xl:text-[24px] md:text-[1vw] text-sm font-RobotoC">
+            <div className="hidden h-screen sm:flex flex-col sticky top-0 px-[5vw] max-w-[250px] w-[15vw] bg-black justify-center items-center gap-[2.5vw] py-8 xl:text-[24px] md:text-[1vw] text-sm font-RobotoC">
                 <div className="md:w-[10vw] w-[50px] absolute -translate-y-[35vh]">
                     <Image src={logo} className="" id="logo" alt="logo" />
                 </div>
@@ -46,25 +38,23 @@ const Navbar = () => {
                     Logo by Andrew Schies
                 </div>
             </div>
-            <div className={(open ? "bg-black-opaque " : "") + "absolute flex sm:hidden z-10 h-screen w-screen font-RobotoC"}>
-               {menuTransition(
-                    (styles, item) => item && <animated.div style={styles}><Menu /></animated.div>
-                )}
-
-                <div className="absolute">
-                    <Hamburger color={(open ? "#FFFFFF" : "#000000")} toggled={open} onToggle={(toggled) => {
-                        setOpen(toggled);
-                    }}/>
-                </div>
+            <div className="absolute z-10">
+                <Hamburger color={(open ? "#FFFFFF" : "#000000")} toggled={open} onToggle={(toggled) => {
+                    setOpen(toggled);
+                }}/>
+            </div>
+            <div id="slideover-container" className="absolute sm:hidden z-5 h-screen w-screen font-RobotoC">
+                <div className={((open) ? "opacity-50" : "opacity-0") + " duration-500 ease-in-out transition absolute bg-black h-screen w-screen"}/>
+                <Menu id="slideover" open={open} />
             </div>
         </navbar>
     )
 }
 
-const Menu = () => {
+const Menu = (props) => {
     return (
-        <div className={(open ? "flex flex-col w-[150px] absolute h-screen bg-black justify-center items-center gap-6" : "hidden")}>
-            <div className="justify-center w-[100px] -translate-y-[25vh]">
+        <div className={((props.open) ? "" : "-translate-x-full") + " duration-700 ease-in-out transition flex flex-col w-[150px] absolute h-screen bg-black justify-center items-center gap-6"}>
+            <div className="justify-center w-[100px] -translate-y-[15vw]">
                 <Image src={logo} className="" id="logo" alt="logo" />
             </div>
             <div className="flex flex-col -translate-y-[10vh] gap-6 justify-center items-center">
@@ -74,7 +64,7 @@ const Menu = () => {
                 <LinkButton to="/recordings">Recordings</LinkButton>
                 <LinkButton to="/charities">Charities</LinkButton>
             </div>
-            <div className="flex flex-col justify-center gap-[1vw] w-[100px] absolute translate-y-[40vh] text-[1.3vw] text-center text-white">
+            <div className="flex flex-col justify-center gap-[1vw] w-[100px] text-[1.3vw] text-center text-white">
                 <Image src={logo_text} className="" alt="text logo" />
                 Logo by Andrew Schies
             </div>
