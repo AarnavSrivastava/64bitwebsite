@@ -38,7 +38,7 @@ const Navbar = () => {
                     Logo by Andrew Schies
                 </div>
             </div>
-            <div className="absolute z-10">
+            <div className={(open ? "bg-transparent" : "bg-white-opaque") + " duration-500 ease-in-out transition absolute z-10 rounded-full p-2 ml-3 mt-3"}>
                 <Hamburger color={(open ? "#FFFFFF" : "#000000")} toggled={open} onToggle={(toggled) => {
                     setOpen(toggled);
                 }}/>
@@ -54,17 +54,17 @@ const Navbar = () => {
 const Menu = (props) => {
     return (
         <div className={((props.open) ? "" : "-translate-x-full") + " duration-700 ease-in-out transition flex flex-col w-[150px] absolute h-screen bg-black justify-center items-center gap-6"}>
-            <div className="justify-center w-[100px] -translate-y-[15vw]">
+            <div className="justify-center w-[100px]">
                 <Image src={logo} className="" id="logo" alt="logo" />
             </div>
-            <div className="flex flex-col -translate-y-[10vh] gap-6 justify-center items-center">
+            <div className="flex flex-col gap-6 justify-center items-center text-[1.1em]">
                 <LinkButton to="/">Home</LinkButton>
                 <LinkButton to="/about">About</LinkButton>
                 <LinkButton to="/members">Members</LinkButton>
                 <LinkButton to="/recordings">Recordings</LinkButton>
                 <LinkButton to="/charities">Charities</LinkButton>
             </div>
-            <div className="flex flex-col justify-center gap-[1vw] w-[100px] text-[1.3vw] text-center text-white">
+            <div className="flex flex-col justify-center gap-[1vw] w-[120px] sm:text-[1.3vw] text-sm text-center text-white">
                 <Image src={logo_text} className="" alt="text logo" />
                 Logo by Andrew Schies
             </div>
