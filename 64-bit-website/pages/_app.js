@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
       <div className="flex flex-col justify-start relative bg-white h-full">
         <div className='flex flex-row'>
           <Navbar />
-          <div className="mt-5">
+          <div className="mt-[10vh]">
             <Component {...pageProps} />
           </div>
           <Analytics />
