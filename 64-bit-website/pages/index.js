@@ -1,15 +1,5 @@
 import Image from "next/image"
 import logo_transparent from "../logos/logo_transparent.png"
-import {
-  FacebookShareButton,
-  FacebookIcon,
-  WhatsappShareButton,
-  WhatsappIcon,
-  TwitterShareButton,
-  TwitterIcon,
-  RedditShareButton,
-  RedditIcon,
-} from 'next-share';
 
 export default function Home() {
   return (
