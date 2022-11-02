@@ -1,5 +1,15 @@
 import Image from "next/image"
 import logo_transparent from "../logos/logo_transparent.png"
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  TwitterShareButton,
+  TwitterIcon,
+  RedditShareButton,
+  RedditIcon,
+} from 'next-share';
 
 export default function Home() {
   return (
@@ -7,7 +17,7 @@ export default function Home() {
         <h1 className="lg:text-[3vw] text-5xl text-black font-bold font-Poppins flex text-center justify-center">
           The 64 Bit <br className="sm:hidden flex"/>Jazz Combo
         </h1>
-        <div className="text-black mt-[2vw] md:text-[1.4vw] text-sm font-Poppins leading-loose text-center">
+        <div className="text-black mt-[2vw] md:text-[2vw] text-md font-Poppins leading-loose text-center">
           A Central Jersey Based Jazz Combo
         </div>
         <Image priority src={logo_transparent} alt="logo" />
