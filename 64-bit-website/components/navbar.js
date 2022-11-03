@@ -38,7 +38,7 @@ const Navbar = () => {
                     Art by Andrew Schies
                 </div>
             </div>
-            <div className={(open ? "bg-transparent" : "bg-white-opaque") + " duration-500 ease-in-out transition absolute z-10 rounded-full p-2 ml-1 mt-1"}>
+            <div className={(open ? "bg-transparent" : "bg-white-opaque") + " duration-500 ease-in-out transition absolute z-10 rounded-full p-2 ml-1 mt-1 flex sm:hidden"}>
                 <Hamburger color={(open ? "#FFFFFF" : "#000000")} toggled={open} onToggle={(toggled) => {
                     setOpen(toggled);
                 }}/>
