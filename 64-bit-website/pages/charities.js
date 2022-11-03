@@ -1,4 +1,5 @@
 import CharityLink from "../components/charitylink";
+import Form from "../components/form";
 import HFB from "../images/hfb.webp"
 import SAVE from "../images/save.webp"
 import MAWNJ from "../images/mawnj.webp"
@@ -10,6 +11,8 @@ export default function Charities() {
           <h1 className="lg:text-[3vw] text-5xl font-Poppins font-bold text-black flex justify-center mt-10">
             Charities
           </h1>
+
+          <Form />
 
           <CharityLink link="https://hugsforbrady.org/donations/" name="Hugs For Brady" img={HFB}>
             &quot;The Hugs for Brady Foundation was established to help children battling cancer and assist in research to 
