@@ -38,12 +38,12 @@ const Navbar = () => {
                     Art by Andrew Schies
                 </div>
             </div>
-            <div className={(open ? "bg-transparent" : "bg-white-opaque") + " duration-500 ease-in-out transition absolute z-10 rounded-full p-2 ml-1 mt-1 flex sm:hidden"}>
+            <div className={(open ? "bg-transparent" : "bg-white-opaque") + " duration-500 ease-in-out transition absolute z-30 rounded-full p-2 ml-1 mt-1 flex sm:hidden"}>
                 <Hamburger color={(open ? "#FFFFFF" : "#000000")} toggled={open} onToggle={(toggled) => {
                     setOpen(toggled);
                 }}/>
             </div>
-            <div className="absolute sm:hidden z-5 h-screen w-screen font-RobotoC">
+            <div className="absolute sm:hidden z-20 h-screen w-screen font-RobotoC">
                 <div className={((open) ? "opacity-50" : "opacity-0") + " duration-500 ease-in-out transition absolute bg-black h-screen w-screen"}/>
                 <Menu open={open} />
             </div>

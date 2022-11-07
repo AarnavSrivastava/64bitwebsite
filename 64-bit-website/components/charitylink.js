@@ -13,7 +13,7 @@ const CharityLink = (props) => {
                 <div className="md:text-[1.3vw] text-sm text-center leading-loose">
                     {props.children}
                 </div>
-                <a target="_blank" rel="noreferrer" href={props.link} className="px-[2vw] rounded-lg w-[10vw] min-w-[100px] flex md:text-[1vw] text-[0.5em] font-Poppins py-[1vw] justify-center text-center border-2 border-black shadow-lg transition ease-in-out hover:bg-black hover:text-amber-400 hover:scale-125">
+                <a target="_blank" rel="noreferrer" href={props.link} className="uppercase font-bold active:ring-4 active:ring-gray-300 px-[2vw] w-[15vw] min-w-[100px] flex md:text-[1vw] text-[0.5em] font-Poppins py-[1vw] justify-center text-center border-2 border-black shadow-lg transition ease-in-out hover:bg-black hover:text-amber-400 hover:scale-125">
                     Donate Now
                 </a>
             </div>

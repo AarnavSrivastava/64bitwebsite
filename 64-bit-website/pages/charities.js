@@ -5,9 +5,10 @@ import SAVE from "../images/save.webp"
 import MAWNJ from "../images/mawnj.webp"
 import StJudes from "../images/stjudes.webp"
 
+
 export default function Charities() {
     return (
-      <div className="flex flex-col gap-[10vw] pb-[4vw]">
+      <div className="flex flex-col items-center gap-[5vw] pb-[4vw]">
           <h1 className="lg:text-[3vw] text-5xl font-Poppins font-bold text-black flex justify-center mt-10">
             Charities
           </h1>
