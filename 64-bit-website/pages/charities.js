@@ -8,11 +8,11 @@ import StJudes from "../images/stjudes.webp"
 
 export default function Charities() {
     return (
-      <div className="flex flex-col items-center gap-[5vw] pb-[4vw]">
-          <h1 className="lg:text-[3vw] text-5xl font-Poppins font-bold text-black flex justify-center mt-10">
+      <div className="text-black flex flex-col items-center gap-[5vw] pb-[4vw]">
+          <h1 className="lg:text-[3vw] text-5xl font-Poppins font-bold flex justify-center mt-10">
             Charities
           </h1>
-
+          
           <Form />
 
           <CharityLink link="https://hugsforbrady.org/donations/" name="Hugs For Brady" img={HFB}>

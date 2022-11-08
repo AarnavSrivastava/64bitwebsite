@@ -24,6 +24,10 @@ export default function Form() {
 
     return (
         <form ref={formRef} className="flex flex-col justify-center items-center gap-[7vw] md:gap-[5vw] py-[5vw]" id="donationForm" onSubmit={sendData}>
+            <h1 className="font-Inter font-bold underline lg:text-[1.5vw] text-xl flex text-center px-[3vw] leading-relaxed tracking-normal">
+                ** If you are considering donating or already have donated to one of the charities below,
+                PLEASE fill out this form. It would mean a lot to the members of the 64 Bit Jazz Combo. **
+            </h1>
             <div className="flex flex-col md:flex-row gap-[7vw] md:gap-[1vw] px-[1vw] items-center">
                 <div className="relative flex flex-col justify-center group">
                     <input 
