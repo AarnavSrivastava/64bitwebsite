@@ -1,15 +1,19 @@
 import CharityLink from "../components/charitylink";
+import Form from "../components/form";
 import HFB from "../images/hfb.webp"
 import SAVE from "../images/save.webp"
 import MAWNJ from "../images/mawnj.webp"
 import StJudes from "../images/stjudes.webp"
 
+
 export default function Charities() {
     return (
-      <div className="flex flex-col gap-[10vw] pb-[4vw]">
-          <h1 className="lg:text-[3vw] text-5xl font-Poppins font-bold text-black flex justify-center mt-10">
+      <div className="text-black flex flex-col items-center md:gap-[5vw] gap-[3em] pb-[4vw]">
+          <h1 className="lg:text-[3vw] text-5xl font-Poppins font-bold flex justify-center mt-10">
             Charities
           </h1>
+
+          <Form />
 
           <CharityLink link="https://hugsforbrady.org/donations/" name="Hugs For Brady" img={HFB}>
             &quot;The Hugs for Brady Foundation was established to help children battling cancer and assist in research to 

@@ -19,6 +19,7 @@
 # misc
 .DS_Store
 *.pem
+/firebase/bitjazzcombo-170b2a69f65e.json
 
 # debug
 npm-debug.log*
@@ -28,6 +29,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel

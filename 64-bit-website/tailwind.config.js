@@ -15,7 +15,7 @@ module.exports = {
         RobotoC : ['Roboto Condensed', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        "white-opaque": 'rgba(255, 255, 255, 0.50)'
+        "white-opaque": 'rgba(255, 255, 255, 0.50)',
       },
     },
   },
