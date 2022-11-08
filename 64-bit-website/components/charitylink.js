@@ -2,16 +2,16 @@ import Image from "next/image";
 
 const CharityLink = (props) => {
     return (
-        <div className="flex flex-row text-black justify-between gap-[10vw] px-[5vw] font-Inter text-3xl w-[100%]">
-            <div className="hidden md:flex w-[30vw] justify-center">
+        <div className="flex flex-row text-black justify-between gap-[10vw] px-[5vw] font-Inter">
+            <div className="hidden md:block w-[30vw] mt-auto mb-auto">
                 <Image src={props.img} alt={props.name} />
             </div>
-            <div className="basis-1 grow flex flex-col justify-center items-center gap-[5vw]">
+            <div className="flex flex-col justify-center items-center gap-[5vw]">
                 <div className="flex flex-row items-center gap-[10vw]">
                     <div className="basis-1/2 flex md:hidden w-[30vw] justify-center">
                         <Image src={props.img} alt={props.name} />
                     </div>
-                    <div className="flex font-RobotoC text-center">
+                    <div className="flex font-RobotoC text-center md:text-[1.5vw] text-[1.25rem]">
                         {props.name}
                     </div>
                 </div>

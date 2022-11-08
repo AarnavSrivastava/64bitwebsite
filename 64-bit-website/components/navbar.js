@@ -24,7 +24,7 @@ const Navbar = () => {
 
     return (
         <navbar className={"z-[99] h-screen sticky top-0"}>
-            <div className="hidden h-screen sm:flex flex-col sticky top-0 px-[5vw] max-w-[250px] w-[15vw] bg-black justify-center items-center gap-[2.5vw] pb-8 xl:text-[24px] sm:text-[2vw] text-sm font-RobotoC">
+            <div className="hidden h-screen sm:flex flex-col sticky top-0 max-w-[250px] w-[15vw] bg-black justify-center items-center gap-[2.5vw] pb-8 xl:text-[24px] sm:text-[2vw] text-sm font-RobotoC">
                 <div className="flex justify-center items-center w-[15vw] max-w-[250px] bg-gray-400 bg-opacity-40 mb-auto py-[2vw]">
                     <div className="w-[6vw]">
                         <Image src={logo} className="" id="logo" alt="logo" />
