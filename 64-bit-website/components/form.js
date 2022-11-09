@@ -59,7 +59,7 @@ export default function Form() {
                             required defaultValue="">
                             <option value="" disabled hidden>Charity You Donated To</option>
                             <option value="Hugs For Brady">Hugs For Brady</option>
-                            <option value="St. Jude">St. Jude Children's Research Hospital</option>
+                            <option value="St. Jude">St. Jude Children&apos;s Research Hospital</option>
                             <option value="SAVE">SAVE</option>
                             <option value="Make-A-Wish">Make-A-Wish Foundation New Jersey</option>
                         </select>
