@@ -15,10 +15,10 @@ export default function Form() {
             charity: e.target[4].value,
         });
         if (res == 0) {
-            setMessage("Thank you for your valuable comment!");
+            alert("Form submitted - Thank You!");
             formRef.current.reset();
         } else {
-            setMessage("Something went wrong! Please try again");
+            alert("An error occurred - try again later or contact us at info@64bitjazzcombo.com");
         }
     };
 
@@ -52,17 +52,18 @@ export default function Form() {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row gap-[7vw] md:gap-[1vw] px-[1vw] items-center">
-                    <div className="flex flex-col justify-center group md:w-[51vw] w-[300px] border-b-2 border-black p-[0.5vw]">
+                    <div className="relative flex flex-row items-center group md:w-[51vw] w-[300px] border-b-2 border-black p-[0.5vw]">
                         <select
                             id="charity" name="charity"
-                            className="ease-in-out duration-300 lg:text-[1.5vw] text-[1em] font-RobotoC text-gray-600 outline-none focus:ring-0 focus:text-black"
+                            className="basis-0 grow ease-in-out duration-300 lg:text-[1.5vw] text-[1em] font-RobotoC text-gray-600 outline-none focus:ring-0 focus:text-black bg-white appearance-none"
                             required defaultValue="">
-                            <option value="" disabled hidden>Charity You Donated To</option>
-                            <option value="Hugs For Brady">Hugs For Brady</option>
-                            <option value="St. Jude">St. Jude Children&apos;s Research Hospital</option>
-                            <option value="SAVE">SAVE</option>
-                            <option value="Make-A-Wish">Make-A-Wish Foundation New Jersey</option>
+                            <option className="bg-white" value="" disabled hidden>Charity You Donated To</option>
+                            <option className="bg-white" value="Hugs For Brady">Hugs For Brady</option>
+                            <option className="bg-white" value="St. Jude">St. Jude Children&apos;s Research Hospital</option>
+                            <option className="bg-white" value="SAVE">SAVE</option>
+                            <option className="bg-white" value="Make-A-Wish">Make-A-Wish Foundation New Jersey</option>
                         </select>
+                        <div className="absolute left-0 right-0 ml-auto z-0 md:border-l-[10px] md:border-r-[10px] md:border-t-[15px] border-l-[5px] border-r-[5px] border-t-[10px] border-l-transparent border-r-transparent border-solid  w-0 h-0 border-t-black" />
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row gap-[7vw] md:gap-[1vw] px-[1vw] items-center">
@@ -86,9 +87,19 @@ export default function Form() {
                         </label>
                     </div>
                 </div>
-                <button type="submit" className="z-10 uppercase active:ring-4 bg-amber-400 ease-in-out transition w-[250px] p-[1vw] font-Poppins font-bold text-black md:text-[1vw] text-[1em] sm:hover:scale-125 sm:hover:bg-black sm:hover:text-amber-300">
-                    submit
-                </button>
+                <div className="flex flex-col justify-center items-center">
+                    <button type="submit" className="z-10 uppercase active:ring-4 bg-amber-400 ease-in-out transition w-[250px] p-[1vw] font-Poppins font-bold text-black md:text-[1vw] text-[1em] sm:hover:scale-125 sm:hover:bg-black sm:hover:text-amber-300">
+                        submit
+                    </button>
+                    {/* {message !== "" &&
+                        <div className="flex flex-col items-center">
+                            <div className="border-l-[10px] border-r-[10px] border-l-transparent border-r-transparent border-solid border-b-[10px] w-0 h-0 border-b-black z-[98]" />
+                            <div className="z-[98] flex text-center items-center font-bold font-Inter bg-gray-50 border-2 border-black rounded-md p-[2vw]">
+                                {message}
+                            </div>
+                        </div>
+                    } */}
+                </div>
             </div>
         </form>
     )
