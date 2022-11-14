@@ -28,6 +28,7 @@ export default function Recording({youtubeId, title}) {
                             src={
                                 `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`
                             }
+                            placeholder="blur"
                             alt=""
                             layout="fill"
                             className="h-full w-full"
