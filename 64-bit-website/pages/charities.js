@@ -8,7 +8,7 @@ import StJudes from "../images/stjudes.webp"
 
 export default function Charities() {
     return (
-      <div className="text-black flex flex-col items-center md:gap-[5vw] gap-[3em] pb-[4vw]">
+      <div className="text-black flex flex-col items-center gap-[5vw] pb-[4vw]">
           <h1 className="lg:text-[3vw] text-5xl font-Poppins font-bold flex justify-center mt-10">
             Charities
           </h1>
