@@ -7,7 +7,7 @@ export default function Recording({youtubeId, title}) {
 
     return (
         <div className="flex flex-col items-center justify-center text-center text-black h-full w-full gap-[1vw]">
-            <div className="lg:text-[2.5vw] text-3xl font-Inter">{title}</div>
+            <div className="lg:text-[2.5vw] text-3xl font-Inter mb-[1vw]">{title}</div>
             {showVid ? 
                 <div className="h-full w-full px-[5vw]">
                     <iframe
@@ -22,13 +22,12 @@ export default function Recording({youtubeId, title}) {
                     />
                 </div>
                 :
-                <div className="aspect-[16/9] h-full w-full px-[5vw]">
+                <div className="h-full w-full px-[5vw]">
                     <button onClick={() => setShow(true)} className="flex flex-col items-center justify-center aspect-[16/9] h-full w-full relative border-4 border-amber-400 group">
                         <Image 
                             src={
                                 `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`
                             }
-                            placeholder="blur"
                             alt=""
                             layout="fill"
                             className="h-full w-full"

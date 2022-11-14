@@ -36,10 +36,10 @@ function MyApp({ Component, pageProps }) {
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
       </Head>
-      <div className="flex flex-col justify-start relative bg-white h-full">
+      <div className="flex flex-col justify-start relative bg-white w-full h-full">
         <div className='flex flex-row'>
           <Navbar />
-          <div className="mt-[10vh]">
+          <div className="mt-[10vh] h-full w-full">
             <Component {...pageProps} />
           </div>
           <Analytics />
