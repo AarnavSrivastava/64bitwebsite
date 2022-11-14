@@ -7,7 +7,7 @@ export default function Recording({youtubeId, title}) {
 
     return (
         <div className="flex flex-col items-center justify-center text-center text-black h-full w-full gap-[1vw]">
-            <div className="lg:text-[2.5vw] text-3xl font-Inter mb-[1vw]">{title}</div>
+            <div className="lg:text-[2.5vw] text-2xl font-Inter mb-[1vw]">{title}</div>
             {showVid ? 
                 <div className="h-full w-full px-[5vw]">
                     <iframe
