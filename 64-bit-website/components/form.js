@@ -10,9 +10,9 @@ export default function Form() {
         const res = await sendContactForm({
             fname: e.target[0].value,
             lname: e.target[1].value,
-            email: e.target[2].value,
+            charity: e.target[2].value,
             amt: e.target[3].value,
-            charity: e.target[4].value,
+            email: e.target[4].value,
         });
         if (res == 0) {
             alert("Form submitted - Thank You!");
