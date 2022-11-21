@@ -1,5 +1,3 @@
-import Image from "next/image"
-import logo_transparent from "../logos/logo_transparent.png"
 import Recording from "../components/recording"
 
 export default function Recordings() {
@@ -9,7 +7,8 @@ export default function Recordings() {
             Recordings
           </h1>
           <div className="flex flex-col gap-[3vw] justify-center items-center">
-            <Recording youtubeId="0slFdlt7XkA" title="Brisa Do Mar At The South Brunswick Senior Center" />
+            <Recording youtubeId="0slFdlt7XkA" title="Brisa Do Mar - Live At The South Brunswick Senior Center" />
+            <Recording youtubeId="OniZWVTR9Z8" title="A Taste of Honey - Live at Complete Care at Park Place" />
           </div>
       </div>
     )
