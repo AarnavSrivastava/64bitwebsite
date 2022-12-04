@@ -7,8 +7,8 @@ export default function Recordings() {
             Recordings
           </h1>
           <div className="flex flex-col gap-[3vw] justify-center items-center">
-            <Recording youtubeId="0slFdlt7XkA" title="Brisa Do Mar - Live At The South Brunswick Senior Center" />
-            <Recording youtubeId="OniZWVTR9Z8" title="A Taste of Honey - Live at Complete Care at Park Place" />
+            <Recording youtubeId="_8hzhFmYBOc" title="Brisa Do Mar - Live At The South Brunswick Senior Center" />
+            <Recording youtubeId="wDukGLdXips" title="Cover of A Taste of Honey - Live at Complete Care at Park Place" />
           </div>
       </div>
     )

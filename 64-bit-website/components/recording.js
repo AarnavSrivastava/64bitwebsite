@@ -26,7 +26,7 @@ export default function Recording({youtubeId, title}) {
                     <button onClick={() => setShow(true)} className="flex flex-col items-center justify-center aspect-[16/9] h-full w-full relative border-4 border-amber-400 group">
                         <Image 
                             src={
-                                `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`
+                                `https://img.youtube.com/vi/${youtubeId}/mqdefault.jpg`
                             }
                             alt=""
                             layout="fill"
